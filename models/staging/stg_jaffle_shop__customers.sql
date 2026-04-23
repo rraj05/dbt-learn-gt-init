@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from test.dbt_raj_test.customers_v1
+from test.dbt_raj_test.customers
