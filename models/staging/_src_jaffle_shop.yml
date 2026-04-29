@@ -1,0 +1,7 @@
+sources: 
+  - name: jaffle_shop #alias for source
+    database: test
+    schema: dbt_raj_test
+    tables:
+      - name: customers
+      - name: orders

@@ -4,4 +4,4 @@ select
     amount, 
     status,
     created as payment_date
-from test.dbt_raj_test.payment
+from {{ source('stripe', 'payment') }}
